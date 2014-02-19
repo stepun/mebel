@@ -6,7 +6,7 @@ $receiving_email_address = "stepun@gmail.com";  // Set your email address here w
 
 $receiving_email_address_name = "Алексей"; // Add name that is associated with your email address above.
 
-$custom_subject = "Запрос звонка с сайта [mebelproff.by]"; // Change the subject line of email as per your choice.
+$custom_subject = "Call back [mebelproff.by]"; // Change the subject line of email as per your choice.
 
 
 // =============================  DO NOT EDIT BELOW THIS LINE  ======================================
