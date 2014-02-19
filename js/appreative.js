@@ -101,7 +101,8 @@ $(document).ready(function() {
 	$('#subscribeForm').submit(function() {
 		if($('#emailSubscribe').val() != "") {
 			var subEmail = $('#emailSubscribe').val();	
-			 if(subEmail.indexOf('@') == -1 || subEmail.indexOf('.') == -1) {
+			 //if(subEmail.indexOf('@') == -1 || subEmail.indexOf('.') == -1) {
+            if (0) {
 				  $('#subscribeForm')
 				  .append('<div class="alert alert-error alert-block fade in">Please enter valid email address!</div>');
 				  $('#subscribeForm').find('.alert').animate({ marginTop:'15px', opacity:'1'}, 300);
@@ -113,7 +114,7 @@ $(document).ready(function() {
 				  }, 3300);
 			  } else {
 				  $('#subscribeForm')
-				  .append('<div class="alert alert-success alert-block fade in"><h4 class="alert-heading">Thank You!</h4>Your email address has been added in our list.</div>');
+				  .append('<div class="alert alert-success alert-block fade in"><h4 class="alert-heading">Спасибо!</h4>Первый свободный менеджер свяжется с вами в рабочее время.</div>');
 				 $('#subscribeForm').find('.alert').animate({ marginTop:'15px', opacity:'1'}, 300);
 				  setTimeout(function() {
 					  $('#subscribeForm').find('.alert').animate({ marginTop:'-10px', opacity:'0'}, 300);
@@ -121,10 +122,21 @@ $(document).ready(function() {
 				  setTimeout(function() {
 					  $('#subscribeForm').find('.alert').remove();
 				  }, 3300);
+
+                var dataString = 'phone=' + subEmail;
+                $.ajax({
+                    type: "POST",
+                    url: "form/callme.php",
+                    data: dataString,
+                    success: function() {
+                        console.log('cool');
+                    }
+                });
+
 			  }
 		} else {
 			  $('#subscribeForm')
-			  .append('<div class="alert alert-error alert-block">Please enter your email address!</div>');
+			  .append('<div class="alert alert-error alert-block">Введите номер телефона!</div>');
 			  $('#subscribeForm').find('.alert').animate({ marginTop:'15px', opacity:'1'}, 300);
 				  setTimeout(function() {
 					  $('#subscribeForm').find('.alert').animate({ marginTop:'-10px', opacity:'0'}, 300);
