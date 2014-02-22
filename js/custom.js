@@ -3,7 +3,7 @@
 
 /* ==================================  GLOBAL  ==================================== */
 
-			var site_color = "ecc716";//"f1601f"; // This is global main color for your template.
+			var site_color = "ecc716";//"ecc716";//"f1601f"; // This is global main color for your template.
 			
 			var Heading_Font = "Amaranth"; // thats your special Heading font
 			
