@@ -13,9 +13,9 @@
 			
 	/* SET CONTACT FORM SUCCESS MESSAGE */
 	
-			var submitMessage = "Your form has been submitted successfully.";
+			var submitMessage = "Ваше обращение отправлено.";
 			
-			var successParagraph = "We'll respond to your message within 24 hours. <br> Please call <b>123.456.789</b> for any urgent queries. Thank You!";
+			var successParagraph = "Мы ответим на Ваше сообщение в течении 24 часов. <br> Пожалуйста, позвоните <b>651 52 52</b> по любым вопросам. Спасибо!";
 			
 			var successBoxColor = "f9ffef"; // Background color for the success box
 			
