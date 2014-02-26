@@ -2,11 +2,11 @@
 
 ///////////////// EDITABLE OPTIONS   /////////////////////
 
-$receiving_email_address = "stepun@gmail.com";  // Set your email address here which you want to receive emails to
+$receiving_email_address = "mebelproff@tut.by";  // Set your email address here which you want to receive emails to
 
 $receiving_email_address_name = "Алексей"; // Add name that is associated with your email address above.
 
-$custom_subject = "Hello From [mebelproff.by] Contact Form"; // Change the subject line of email as per your choice.
+$custom_subject = "Hello From [mebelprof.by] Contact Form"; // Change the subject line of email as per your choice.
 
 
 

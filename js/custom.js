@@ -5,9 +5,9 @@
 
 			var site_color = "ecc716";//"ecc716";//"f1601f"; // This is global main color for your template.
 			
-			var Heading_Font = "Amaranth"; // thats your special Heading font
+			var Heading_Font = "PT Sans"; // thats your special Heading font
 			
-			var Site_Font = "asap"; // thats your special body content font
+			var Site_Font = "PT Sans"; // thats your special body content font
 			
 /* ================================  CONTACT PAGE  =================================== */
 			
@@ -30,7 +30,7 @@
 // Google Web Fonts
 
 WebFontConfig = {
-    google: { families: [ 'Amaranth:400,400italic,700,700italic:latin', 'Asap:400,400italic,700,700italic:latin' ] }
+    google: { families: [ 'PT Sans:400,400italic,700,700italic:latin', 'PT Sans:400,400italic,700,700italic:latin' ] }
 	  };
 	  (function() {
 		var wf = document.createElement('script');
